@@ -7,7 +7,7 @@ module.exports = {
 	entry: {
 		main: './src/index.js',
 		'push-worker': './src/push-worker.js',
-		airship: './src/airship.js'
+		// airship: './src/airship.js'
 	},
 	output: {
 		filename: '[name].js',
