@@ -1,7 +1,7 @@
 document.querySelector('#app').innerHTML = `${Math.random()}`
 if ('serviceWorker' in navigator) {
 	navigator.serviceWorker
-		.register('./pw.js')
+		.register('./push-worker.js')
 		.then(reg => {
 			console.log('service worker registered', reg)
 		})

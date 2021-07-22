@@ -1,4 +1,4 @@
-// 86acbd31cd7c09cf30acb66d2fbedc91daa48b86:1626946205.834249
+// 86acbd31cd7c09cf30acb66d2fbedc91daa48b86:1626958307.572575
 !(function (n, r, e, t, c) {
 	var i,
 		o = 'Promise' in n,
@@ -29,7 +29,7 @@
 	var a = r.createElement('script')
 	;(a.src = e), (a.async = !0), (a.id = '_uasdk'), (a.rel = t), r.head.appendChild(a)
 })(window, document, 'https://aswpsdkeu.com/notify/v1/ua-sdk.min.js', 'UA', {
-	vapidPublicKey: 'BEUeipTLa20gngcbHSpaZOu0E3oI7gyC3NAYoKz5tDolUg_cgZRnk-W8jaWJbZRAAiablr0KCRR892MxGyRiHO0=',
-	appKey: '5RMQoVNmTZKkRQzSWsP88A',
-	token: 'MTo1Uk1Rb1ZObVRaS2tSUXpTV3NQODhBOk81MjdOTDFJd0NFcUZpMHFPNzFKdmRmSmVzZGhJSGF1MGhjOVNqWXViTnc'
+	vapidPublicKey: 'BFvMeGVgUVDH8JN9NhVwS5oOGUc4AvaEkWCVpCthnl6VkpueOfTovlqFfFsVxL_E66BxyOTrWtMWySFVWGysA28=',
+	appKey: 'rRJ1jEJcRPeQ72sS2sH4oQ',
+	token: 'MTpyUkoxakVKY1JQZVE3MnNTMnNING9ROk9TNmZ2LUtnY3NNZzJabl85NTlHUlBCdkx4N09hVjlDMlRBeTJzRWZBOEU'
 })
