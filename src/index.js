@@ -1,12 +1,9 @@
 document.querySelector('#app').innerHTML = `${Math.random()}`
 if ('serviceWorker' in navigator) {
-    window.addEventListener('load', function() {
-      navigator.serviceWorker.register('./push-worker.js').then(function(registration) {
-        // Registration was successful
-        console.log('ServiceWorker registration successful with scope: ', registration.scope);
-      }, function(err) {
-        // registration failed :(
-        console.log('ServiceWorker registration failed: ', err);
-      });
-    });
-  }
+	navigator.serviceWorker
+		.register('./push-worker.js')
+		.then(reg => {
+			console.log('service worker registered', reg)
+		})
+		.catch(err => console.log('service worker not registered', err))
+}
