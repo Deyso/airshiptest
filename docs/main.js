@@ -1,1 +1,1 @@
-console.log("Hello Peter !"),document.querySelector("#app").innerHTML=`${Math.random()}`;
+document.querySelector("#app").innerHTML=`${Math.random()}`;
