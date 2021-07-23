@@ -1,4 +1,4 @@
-// 86acbd31cd7c09cf30acb66d2fbedc91daa48b86:1627016307.8274815
+// 86acbd31cd7c09cf30acb66d2fbedc91daa48b86:1627018993.580874
 importScripts('https://aswpsdkeu.com/notify/v1/ua-sdk.min.js')
 uaSetup.worker(self, {
   defaultIcon: 'https://www.sportico.com/wp\u002Dcontent/uploads/2021/06/spArt.jpg?w\u003D681\u0026h\u003D383\u0026crop\u003D1',
