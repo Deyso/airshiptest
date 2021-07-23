@@ -10,7 +10,7 @@ module.exports = {
 	},
 	entry: {
 		main: './src/index.js',
-		'push-worker': './src/push-worker.js',
+		// 'push-worker': './src/push-worker.js',
 		// sw: './src/sw.js',
 		airship: './src/airship.js'
 	},
