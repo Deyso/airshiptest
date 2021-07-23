@@ -11,7 +11,7 @@ module.exports = {
 	entry: {
 		main: './src/index.js',
 		// 'push-worker': './src/push-worker.js',
-		// sw: './src/sw.js',
+		'pushbots-worker': './src/pushbots-worker.js',
 		airship: './src/airship.js'
 	},
 	output: {

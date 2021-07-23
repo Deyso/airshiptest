@@ -6,7 +6,7 @@ document.querySelector('#regist').addEventListener('click', () => {
 })
 if ('serviceWorker' in navigator) {
 	navigator.serviceWorker
-		.register('./push-worker.js')
+		.register('./pushbots-worker.js')
 		.then(reg => {
 			console.log('service worker registered', reg)
 		})
